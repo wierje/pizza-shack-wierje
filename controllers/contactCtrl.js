@@ -10,5 +10,5 @@ module.exports.addContact = ({ body }, res, err) => {
     Contact.forge(body)
         .save()
         .then(() => res.redirect('/'))
-        .catch(err)
+        .catch(err);
 };

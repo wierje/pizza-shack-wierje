@@ -1,5 +1,5 @@
 {
-  "name": "pizza-shack-joeshep",
+  "name": "pizza-shack-wierje",
   "version": "1.0.0",
   "description": "A Node.js app with pug templates and postgreSQL",
   "main": "app.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nss-day-cohort-17/pizza-shack-joeshep.git"
+    "url": "git+https://github.com/wierje/pizza-shack-wierje.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nss-day-cohort-17/pizza-shack-joeshep/issues"
+    "url": "https://github.com/wierje/pizza-shack-wierje/issues"
   },
-  "homepage": "https://github.com/nss-day-cohort-17/pizza-shack-joeshep#readme",
+  "homepage": "https://github.com/wierje/pizza-shack-wierje#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.1",
@@ -31,6 +31,7 @@
     "express-flash": "0.0.2",
     "express-session": "^1.15.2",
     "knex": "^0.12.9",
+    "knex-migrate": "^1.2.0",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "pg": "^6.1.5",
