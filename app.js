@@ -11,7 +11,7 @@ const cookieParser = require('cookie-parser');
 const { cyan, red } = require('chalk');
 const flash = require('express-flash');
 const { knex } = require('./db/database');
-
+const knexMigrate = require('knex-migrate');
 const routes = require('./routes/');
 
 // pug config
