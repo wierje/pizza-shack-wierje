@@ -1,0 +1,12 @@
+extends partials/layout
+
+block content
+  .welcome
+    .welcome__text
+      if orderMsg
+        h2= orderMsg
+      else
+        h1 Welcome to Pizza Shack!
+      h2= body.magic
+    .welcome__image
+      img(src='/images/mellow.jpg')

@@ -1,0 +1,22 @@
+body {
+    background: aliceblue;
+    padding-top: 50px;
+}
+
+.welcome {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.welcome__text {
+    color: red;
+}
+
+.welcome__image img {
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.contact-form__submit {
+    text-align: right
+}
